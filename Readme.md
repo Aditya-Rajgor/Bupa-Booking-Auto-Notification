@@ -29,4 +29,4 @@ Add your email address and password on the alert.py file.
 
 `python main.py`
 
-# Please check the branch `remote` to complate this setup handsfree.
+### Please check the branch `remote` to complate this setup handsfree.
