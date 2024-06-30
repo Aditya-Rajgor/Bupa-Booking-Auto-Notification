@@ -31,7 +31,7 @@ class BotBupa:
         ind_element.click()
 
         input_element = browser.find_element(By.ID, "ContentPlaceHolder1_SelectLocation1_txtSuburb")
-        input_element.send_keys("3163")
+        input_element.send_keys("POST CODE/LOCATION")
 
         search_element = browser.find_element(By.CLASS_NAME, "postcode-search")
         search_element.click()
