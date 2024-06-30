@@ -5,8 +5,8 @@ from email.message import EmailMessage
 class Alert:
     def email_alert(subject, body, to):
         # gmail account
-        user = "adityagorman@gmail.com"
-        password = "kkhp eujf gqbz kvki"
+        user = "email-address"
+        password = "app based password"
 
         # mail message init
         msg = EmailMessage()
