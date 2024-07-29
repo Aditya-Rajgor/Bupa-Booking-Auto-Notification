@@ -20,6 +20,15 @@ This code is provided as is, without any warranty. Use it at your own risk. It d
 
 Open the bupa website using Selenium and then search for the booking available for the near given post code. If the booking is available send an email notification to my email including booking link.
 
+# Outcome
+
+When, script finds the appoinment that is availble on the date provided, it sends an email,that contains information about the appointment.
+
+Here is the screenshot of the appointment that was matched.
+![bupa-email-notification](demo.png)
+
+Funny enough, I booked this appointment!
+
 # Code walkthrough
 
 The `main.py` file runs and creates bot using `botBupa.py` file, further, it opens selenium webdriver and clicks indivial booking and then search for the specific post code.
